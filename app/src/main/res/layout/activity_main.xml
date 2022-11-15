@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="GeekHood"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/va"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="variables"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/if_con"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="if_condition"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/array"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="array_loop"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/fun"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="functions"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/oop1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="Class_Object"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <Button
+            android:id="@+id/oop2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="Encapsulate"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
