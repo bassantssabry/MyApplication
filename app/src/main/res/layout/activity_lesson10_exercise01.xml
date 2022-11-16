@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lesson07_Exercise01">
+    tools:context=".Lesson10_Exercise01">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:paddingTop="10dp"
-            android:text="Lesson07_Exercise01"
+            android:text="Lesson10_Exercise01"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="italic" />
@@ -38,36 +38,26 @@
             android:paddingTop="10dp"/>
 
     </LinearLayout>
+
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_margin="16dp"
         android:width="5dp"
-        android:hint="Name :"
+        android:hint="Num1 :"
+        android:textStyle="italic"
+        android:inputType="number"
         android:padding="16dp" />
 
     <EditText
-        android:id="@+id/Gender"
+        android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_margin="16dp"
         android:width="5dp"
-        android:hint="Gender :"
-        android:padding="16dp" />
-    <EditText
-        android:id="@+id/age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:width="5dp"
-        android:hint="Age :"
+        android:hint="Num2 :"
+        android:textStyle="italic"
         android:inputType="number"
         android:padding="16dp" />
 
@@ -77,50 +67,63 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-
         <Button
             android:id="@+id/add"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:width="1dp"
             android:backgroundTint="#208ABA"
-            android:text="Register"
-            android:textStyle="italic"
-            android:textSize="20sp"
-            tools:ignore="OnClick" />
+            android:text="+"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="-"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="*"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:width="1dp"
+            android:backgroundTint="#208ABA"
+            android:text="/"
+            android:textSize="30sp" />
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/Name"
+        android:id="@+id/rez"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_margin="16dp"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/gender"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:textStyle="italic" />
-    <TextView
-        android:id="@+id/Age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:gravity="center"
+        android:text="0"
         android:textSize="20sp"
         android:textStyle="italic" />
 

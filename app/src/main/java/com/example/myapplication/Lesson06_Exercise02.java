@@ -58,5 +58,13 @@ public class Lesson06_Exercise02 extends AppCompatActivity {
 
             }
         });
+        ImageView back=findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Lesson06_Exercise02.this, Lesson06_Exercise01.class));
+                finish();
+            }
+        });
     }
 }

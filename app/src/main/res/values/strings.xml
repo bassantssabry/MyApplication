@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="planet">planet</string>
+    <string name="position">position</string>
+
+
+    <string-array name="planet">
+        <item> planet</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item> Pluto</item>
+    </string-array>
+    <string-array name="position">
+        <item> position</item>
+        <item>manager</item>
+        <item>Employee</item>
+        <item>worker</item>
+    </string-array>
 </resources>
+

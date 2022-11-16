@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lesson07_Exercise02">
+    tools:context=".Lesson09_Exercise02">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:paddingTop="10dp"
-            android:text="Lesson07_Exercise02"
+            android:text="Lesson09_Exercise01"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="italic" />
@@ -39,42 +39,44 @@
 
     </LinearLayout>
     <EditText
-        android:id="@+id/weight"
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:width="5dp"
-        android:hint="weight :"
-        android:inputType="number"
+        android:hint="Name :"
         android:padding="16dp" />
-    <Spinner
+    <EditText
+        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:padding="16dp"
-        android:transitionName="@string/planet"
-        android:entries="@array/planet"/>
+        android:width="5dp"
+        android:hint="password :"
+        android:inputType="number"
+        android:padding="16dp" />
+
     <Button
         android:id="@+id/calculate"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_gravity="center"
         android:width="1dp"
         android:backgroundTint="#208ABA"
-        android:text="calculate weight"
+        android:text="calc"
         android:textStyle="italic"
         android:textSize="20sp"
         tools:ignore="OnClick" />
 
     <TextView
-        android:id="@+id/Weight"
+        android:id="@+id/nam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -83,4 +85,15 @@
         android:gravity="center"
         android:textSize="20sp"
         android:textStyle="italic" />
-</LinearLayout>
+    <TextView
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout >
